@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.grade {
+    width: 500px;
+    height: 350px;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    align-items: center;
+}
+
+.grade h3{
+    color:rgb(255, 255, 255);
+    margin: 20px 30px;
+    background-color: rgb(101, 99, 126);
+    padding: 15px;
+    display: inline-block;
+}
+
+.display {
+    width: 200px;
+    height:70px;
+    margin: 10px 10px;
+    background-color:rgb(233, 221, 221);
+    color:rgb(31, 30, 53);
+    font-size: 2.0rem;
+    border:none;
+    text-align: right;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.comment {
+    color: red;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:rgb(100, 99, 99);
+    color: white;
+    margin: 4px 2px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+#submit {
+    width: 80px;
+    height: 40px;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:rgb(15, 15, 29);
+    color: white;
+    margin: 4px 2px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+  
+  
+ 
